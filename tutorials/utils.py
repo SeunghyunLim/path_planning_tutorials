@@ -78,18 +78,6 @@ def img2binList(img, lenWidth, GRID_SIZE=50, verbose=1):
     # cv2.destroyAllWindows()
     return maze, DISTANCECOSTMAP
 
-def distcost(x, y, safty_value=2):
-    # large safty value makes the path more away from the wall
-    # However, if it is too large, almost grid will get max cost
-    # which leads to eliminate the meaning of distance cost.
-    global DISTANCECOSTMAP
-    max_distance_cost = np.max(DISTANCECOSTMAP)
-    distance_cost = max_distance_cost-DISTANCECOSTMAP[x][y]
-    #if distance_cost > (max_distance_cost/safty_value):
-    #    distance_cost = 1000
-    #    return distance_cost
-    return 50 * distance_cost # E5 223 - 50
-
 def convert2meter(path, scale=0.2):
     """convert the path in meter scale"""
     """in general, one grid represent 0.5 meter"""
