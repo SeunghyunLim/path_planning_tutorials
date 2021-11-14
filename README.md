@@ -24,10 +24,10 @@ It took 3.349256992340088 sec.
 Python based examples for path planning algorithms; 'follow the carrot' and 'pure pursuit'.
 
 ### Follow the carrot
-<center><img src="https://github.com/SeunghyunLim/path_planning_tutorials/blob/master/img/follow%20the%20carrot.PNG" alt="drawing" width="480"/></center>
+<center><img src="https://github.com/SeunghyunLim/path_planning_tutorials/blob/master/img/follow%20the%20carrot.PNG" alt="drawing" width="720"/></center>
 
 ### Pure pursuit
-<center><img src="https://github.com/SeunghyunLim/path_planning_tutorials/blob/master/img/pure%20pursuit.PNG" alt="drawing" width="480"/></center>
+<center><img src="https://github.com/SeunghyunLim/path_planning_tutorials/blob/master/img/pure%20pursuit.PNG" alt="drawing" width="720"/></center>
 
 | __Follow the carrot__ | __Pure pursuit__ |
 |---|---|
