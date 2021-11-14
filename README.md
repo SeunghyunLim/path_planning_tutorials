@@ -22,6 +22,7 @@ It took 3.349256992340088 sec.
 # Appendix
 ## path_following_algorithms
 Python based examples for path planning algorithms; 'follow the carrot' and 'pure pursuit'.
+https://github.com/SeunghyunLim/path_following_algorithms
 
 ### Follow the carrot
 <center><img src="https://github.com/SeunghyunLim/path_planning_tutorials/blob/master/img/follow%20the%20carrot.PNG" alt="drawing" width="720"/></center>
